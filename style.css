@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #252525;
+  font-family: sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff !important;
+}
+::placeholder {
+  color: white !important;
+  opacity: 1; /* Firefox */
+}
+.btn:hover {
+  background-color: white !important;
+  color: green !important;
+  transition: all 0.5s;
+  border: 1px solid green !important;
+}
+.text {
+  color: green !important;
+}
